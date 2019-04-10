@@ -1,0 +1,27 @@
+body {
+  color: Gray;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+
+}
+.img1, .img2, .img3{
+  top: 20px;
+  height: 250px;
+  width: 400px;
+}
+
+.centered{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.75;
+  top: 45%;
+  text-align: center;
+}
+
+.centered:hover{
+  font-weight: bold;
+}
